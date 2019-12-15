@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Daily Tadka Recipes</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="label_home">Home</string>
+    <string name="label_more">More</string>
+    <string name="label_favourite">Favourite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_max_serving_colon">Max Serving :</string>
+    <string name="label_preparation_time_colon">Preparation Time :</string>
+    <string name="label_description_colon">Description :</string>
+    <string name="type_veg">Veg</string>
+    <string name="type_non_veg">NonVeg</string>
+</resources>

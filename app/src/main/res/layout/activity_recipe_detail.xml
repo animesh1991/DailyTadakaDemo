@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.animesh.dailytadkarecipes.recepies.RecipeDetailActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:isScrollContainer="false" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/vp_circle_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/vp_ingredients"
+        app:ci_drawable="@drawable/ci_oval_selected"
+        app:ci_drawable_unselected="@drawable/ci_oval_unselected" />
+
+    <ScrollView
+        android:layout_below="@+id/vp_circle_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rl_recipe_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp">
+
+            <com.animesh.dailytadkarecipes.common.customeviews.RobotoBoldTextView
+                android:id="@+id/tv_serving_ppl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/label_max_serving_colon"
+                android:textColor="@color/colorGreyA9A9A9"
+                android:textSize="14sp" />
+
+            <com.animesh.dailytadkarecipes.common.customeviews.RobotoRegularTextView
+                android:id="@+id/tv_serving_ppl_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_serving_ppl"
+                android:background="@color/colorWhite"
+                android:paddingBottom="6dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="6dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <com.animesh.dailytadkarecipes.common.customeviews.RobotoBoldTextView
+                android:id="@+id/tv_preparation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_serving_ppl_value"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/label_preparation_time_colon"
+                android:textColor="@color/colorGreyA9A9A9"
+                android:textSize="14sp" />
+
+            <com.animesh.dailytadkarecipes.common.customeviews.RobotoRegularTextView
+                android:id="@+id/tv_preparation_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_preparation"
+                android:background="@color/colorWhite"
+                android:paddingBottom="6dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="6dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <com.animesh.dailytadkarecipes.common.customeviews.RobotoBoldTextView
+                android:id="@+id/tv_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_preparation_value"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/label_description_colon"
+                android:textColor="@color/colorGreyA9A9A9"
+                android:textSize="14sp" />
+
+            <com.animesh.dailytadkarecipes.common.customeviews.RobotoRegularTextView
+                android:id="@+id/tv_description_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_description"
+                android:background="@color/colorWhite"
+                android:paddingBottom="6dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="6dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

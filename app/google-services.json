@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "39355005562",
+    "firebase_url": "https://daily-tadka.firebaseio.com",
+    "project_id": "daily-tadka",
+    "storage_bucket": "daily-tadka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39355005562:android:4586bd86218098c7",
+        "android_client_info": {
+          "package_name": "com.example.animesh.dailytadkarecipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39355005562-qmti9s624ba4id66ck8gpk30ajcid9gh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8nLFnAmIU-2tS2Rqwp9sDjOuUQjz8A9E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "menu_name": "Veg Recipes",
+    "image_path": "veg_logo"
+  },
+  {
+    "menu_name": "Non Veg Recipes",
+    "image_path": "non_veg_logo"
+  }
+]
